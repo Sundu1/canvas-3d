@@ -68,6 +68,8 @@
             ctx.beginPath();
             ctx.moveTo(this.vertices[edge[0]].x, this.vertices[edge[0]].y);
             ctx.lineTo(this.vertices[edge[1]].x, this.vertices[edge[1]].y);
+            ctx.fillStyle = "#e0e0ff";
+            ctx.fill();
             ctx.stroke();
             ctx.closePath();
 
